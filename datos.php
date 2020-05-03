@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+	</head>
+
 <?php
     //connect with the server
     $conectar=@mysql_connect('localhost', 'root', '');
@@ -28,8 +34,8 @@
     if(!$ejecutar){
             echo"there was a mistake";
     }else{
-        echo"data saved correctly<br><a href='Login.html'>return<a>";
+        echo"data saved correctly<br><a href='NewFile.html.html'>return<a>";
     }
     
-    
  ?>
+ </html>
